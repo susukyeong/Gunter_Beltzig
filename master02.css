@@ -1,0 +1,227 @@
+@import url(url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Noto+Sans+KR:wght@500&display=swap');
+
+*{margin: 0;padding: 0;text-decoration: none;}
+
+header{
+  width: 100%;
+  height: 80px;
+  background-color: #FFF7E4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav{
+  width: 1200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid blue;
+}
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul li{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li a{
+  color: #000000;
+  text-transform:lowercase;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  transition: 1s;
+}
+
+header nav ul li a:hover{
+  color: #FAB700;
+  font-size: 1.4em;
+  transition: 1s;
+}
+
+.menu1{width: 298px;}
+.menu2{width: 495px;}
+.menu3{width: 84px;}
+.menu4{width: 70px;}
+.menu5{width: 63px;}
+.menu6{width: 57px;}
+.menu7{width: 30px;}
+
+.banner{
+  width: 100;
+  height: 218px;
+  background-image: url('img/2_bg02.png');
+  background-color: #334032;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cont1{
+  width: 100%;
+  height: 87px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+h1{
+  text-transform:lowercase;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  left: -400px;
+ }
+
+h2{
+  text-transform:capitalize;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 4.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  left: -300px
+}
+
+.text1{
+  font-family: 'Gothic A1', sans-serif;
+  font-weight:400;
+  color: #4F4F4F;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 200px;
+  left: -370px;
+}
+
+.img1{
+  width: 100%;
+  height: 571px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 210px;
+}
+
+.text2{
+  font-family: 'Gothic A1', sans-serif;
+  font-weight:400;
+  color: #4F4F4F;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 220px;
+  margin-left: 750px;
+}
+
+.line{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 450px;
+  opacity: 50%;
+}
+
+.text3{
+  font-family: 'Gothic A1', sans-serif;
+  font-weight:400;
+  color: #4F4F4F;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 260px;
+  left: -480px;
+}
+
+.img2{
+  width: 100%;
+  height: 587px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 210px;
+}
+
+.text4{
+  font-family: 'Gothic A1', sans-serif;
+  font-weight:400;
+  color: #4F4F4F;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 220px;
+  margin-left: 900px;
+}
+
+.img3{
+  width: 100%;
+  height: 209px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 310px;
+}
+
+.text5{
+  font-family: 'Gothic A1', sans-serif;
+  font-weight:400;
+  color: #4F4F4F;
+  font-size: 1.0em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 330px;
+}
+
+.cont_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer{
+  width: 100%;
+  height: 79px;
+  background-color: #FFD267;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4F4F4F;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 0.8em;
+  letter-spacing: -0.05em;
+  margin-top: 450px;
+}

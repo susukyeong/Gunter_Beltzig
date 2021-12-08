@@ -1,0 +1,170 @@
+@import url(url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+
+*{margin: 0;padding: 0;text-decoration: none;}
+
+header{
+  width: 100%;
+  height: 80px;
+  background-color: #FFF7E4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav{
+  width: 1200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid blue;
+}
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul li{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li a{
+  color: #000000;
+  text-transform:lowercase;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  transition: 1s;
+}
+
+header nav ul li a:hover{
+  color: #FAB700;
+  font-size: 1.4em;
+  transition: 1s;
+}
+
+.menu1{width: 298px;}
+.menu2{width: 495px;}
+.menu3{width: 84px;}
+.menu4{width: 70px;}
+.menu5{width: 63px;}
+.menu6{width: 57px;}
+.menu7{width: 30px;}
+
+.main{
+  width: 100%;
+  height: 735px;
+  background-image: url('img/1_bg01.png');
+  background-color: #352C33;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cont1{
+  width: 100%;
+  height: 130px;
+  background-image: url('img/1_bg02.png');
+  background-color: #DEDEDE;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cont11{
+  width: 100%;
+  height: 130px;
+  background-image: url('img/1_bg03.png');
+  background-color: #202C2A;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro{
+  height: 200px;
+  margin-right: 570px;
+  margin-top: 130px;
+}
+
+.cont2{
+  width: 100%;
+  height: 940px;
+}
+
+.prod{
+  height: 100px;
+  position: relative;
+  top: -200px;
+  left: 1300px;
+}
+
+.img1{
+  width: 100%;
+  height: 533px;
+  position: relative;
+  left: 130px;
+  bottom: 100px;
+}
+
+.img2{
+  width: 100%;
+  height: 533px;
+  position: relative;
+  top: 320px;
+  right: 600px;
+}
+
+.cont3{
+  width: 100%;
+  height: 792px;
+}
+
+h2{
+ width: 703px;
+ height: 609px;
+ position: relative;
+ left: 320px;
+
+}
+
+.trib{
+  height: 100px;
+  position: relative;
+  right: 750px;
+}
+
+.cont4{
+  width: 100%;
+  height: 479px;
+  background-image: url('img/1_bg04.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.copy{
+  width: 100%;
+  height: 79px;
+  background-image: url('img/copy.png');
+}
+
+.cont_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  background-color: #FFD267;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4F4F4F;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 0.8em;
+  letter-spacing: -0.05em;
+}

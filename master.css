@@ -1,4 +1,5 @@
 @import url(url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
 
 *{margin: 0;padding: 0;text-decoration: none;}
@@ -37,7 +38,7 @@ header nav ul li a{
   text-transform:lowercase;
   font-family: 'Caveat Brush', cursive;
   font-size: 1.2em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.5em;
   transition: 1s;
 }
 
@@ -163,8 +164,8 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #4F4F4F;
-  font-family: 'Caveat Brush', cursive;
+  color: #000000;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 0.8em;
   letter-spacing: -0.05em;
 }
